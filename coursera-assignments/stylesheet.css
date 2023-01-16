@@ -1,0 +1,51 @@
+ /*Global Styling of this page*/
+*{box-sizing: border-box;
+font-family: Times New Roman, Arial, Helvetica, serif, sans-serif;
+ }
+ /*Media Quieries*/
+ /*Desktop Screen*/
+@media (min-width: 992px) {section {width:31%;}}
+ /*Tablet Screen*/
+@media (min-width: 768px) and (max-width: 991px){.top-section {width:47%; .bottom-section:97%}}
+ /*Mobile Screen*/
+@media (max-width: 767px){section{width: 97%;}}
+ /*Styling for heading "Our Menu"*/
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+ /*Styling for all 3 sections*/
+section {
+  background-color: #D3D3D3;
+  border: 2px solid black;
+  margin: 12px;
+  padding: 5px;
+  float: left;
+}
+ /*Styling for section titles of "Chicken", "Beef" and "Sushi"*/
+h3 {
+ width: 22.6%;
+  margin: 5px;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+  left: 77.4%;
+  margin-top: -7px;
+  border-right: none;
+  font-size: 125%;
+}
+ /*Background color for "chicken"*/
+#first-title {
+  background-color: #F08080;
+ /*Background color for "Beef"*/
+}
+#second-title {
+  background-color: #A52A2A;
+  color: #FFFFFF;
+}
+ /*Background color for "Sushi"*/
+#third-title {
+  background-color: #F0E68C;
+}
+
+
